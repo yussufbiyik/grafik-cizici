@@ -16,13 +16,10 @@ html{
     display: grid;
     row-gap: 10px;
     grid-auto-flow: row;
-    
-    padding: 0 20px;
 }
 
 .grafik-paneli{
     padding: 20px;
-    height: 500px;
 
     border-radius: .2rem;
     background: #f6f6f6;
