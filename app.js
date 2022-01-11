@@ -34,6 +34,5 @@ function grafikCiz(artmaSayisi = 1) {
     }
     chart.data.labels = xValues
     chart.data.datasets[0].data = yValues
-    console.log(chart.data.datasets)
     chart.update()
 }
