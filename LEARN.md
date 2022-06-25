@@ -21,4 +21,11 @@
 8. Chart.js ile grafiğin x ve y değerleri güncelleniyor ardından chart.update() ile değişiklikler ekrana yansıtılıyor.
   
 ### [EN]
-  On the way
+1. Enter your equation in the text input with the "Denklemi Gir" placeholder.
+2. Enter the starting (başlangıç değeri) and ending (bitiş değeri) values of the equation in the other two text inputs.
+3. Press "Grafiği Güncelle" button.
+4. The function named grafikCiz() gets triggered when you press the button because the button has onclick="grafikCiz()" on it's HTML
+5. Functions gets the equation, starting and ending value
+6. A for loop starts and loops until it reaches the ending value while starting from the starting value
+7. Every time the loop works, equation gets solved for the x value that the loop is on then the answer of the equation gets pushed into the array named yValues the the y values gets pushed into the array named xValues
+8. Graph gets updated with the new values using the chart.update() funciton on Chart.js
